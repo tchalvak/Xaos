@@ -1,0 +1,20 @@
+
+
+// The problem:
+The colour codes from the vMap eat the vast majority of bandwidth xaos consumes and its because its horribly inefficient. What we need is the creation of a 'simple' function who's goal is to take a string that the mud is about to send across the void of the net and strip out any redundant ansi colour codes.
+
+To further elaborate, I'm going to assume the solution would involve parsing a string and writing a new one but ignoring any redundant ansi codes based on two traits which are the last fore ground and back ground colour codes used. Currently each character cell of vnum adds its own foreground, background and termination ansi codes in addition to the cell's visible character/symbol so yah that's 400% bloat in most cases considering how often you have multiple of the same type in a row.
+
+This function doesn't even have to understand what the vmap is or anything else really, it just needs to know that when its fed a string it removes any of these ansi codes that its already met and keeps the ones that actually change from the previously used one.
+
+// Example color codes and looked-for result:
+
+A colour code always starts with a ^, so this is what the function should be watching for, now based on whether the next character is a foreground or background adjuster and based on what the previous one of those catagories was it either leaves it be or strips it out. The additional caveat with the vmap is you need to also anticipate that each cell ends itself with a ^x to clear it and guard against colour code spillage.
+
+An example line that I'm just arbitrarily writing right now would be like:
+^3^G#^x^3^G#^x^3^G#^x^r.^x^m.^x^3^G#^x^3^G#^x^3^G#^x
+
+if you can use code to reduce that to this instead:
+^3^G###^x^r.^m.^3^G###^x
+
+// One potential solution for this could be to use a regular expression.

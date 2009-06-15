@@ -1,1 +1,12 @@
-Take new player images from the site, if any.
+Take new player images from the site, if any. (don't seem to be any)
+
+Change the newbie intro.
+
+Add jQuery.
+Add lib_input.
+
+Add the skill/spell interface (using jQuery?)
+
+Remove the class list interface.
+
+Add links to the github site repository via the contact us page.

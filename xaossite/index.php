@@ -1,15 +1,13 @@
-<html><head>
+<html>
+<head>
 <?php
-  if (isset($_GET['page']))
-  {
+  $page = "newbies";
+  if (isset($_GET['page'])){
     $page = $_GET['page'];
   }
-  if (!($page)){
-    $page = "newbies";
-  }
-  echo("<title>XaosMUD <xaos-mud.org:5000> ::/".$page."</title>");
 ?>
-<?php include("includes/index.css");?>
+<title>XaosMUD &lt;xaos-mud.org:5000&gt; ::/<?php echo $page; ?></title>
+<link type='text/css' href='./includes/index.css' rel='stylesheet'>
 <script src="includes/popup.js" type="text/javascript"></script>
 </head>
 

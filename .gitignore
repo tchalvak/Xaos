@@ -3,3 +3,6 @@
 .DS_Store
 dev/*
 gitLog
+resources.php
+private/
+open_code/disallowed/

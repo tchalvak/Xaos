@@ -5,8 +5,8 @@
   <tr style="color: #5a7bad;text-decoration: none;font-size:8pt;cursor: pointer">
      <td align="left" valign="top">
                  <div class="subcategory"><b>World Maps</b><p></p></div>
-		  <b>·</b><a onclick="Map.src='images/map_xaosworldsmall.jpg';Map.width='480';Map.height='682';return true">Small</a><br>
-		  <b>·</b><a onclick="Map.src='images/map_xaosworldmedium.png';Map.width='1161';Map.height='1806';return true">Medium</a><br>
+		  <b>·</b><a onclick="Map.src='images/vmap2009small.jpg';Map.width='500';Map.height='500';return true">Small</a><br>
+		  <b>·</b><a onclick="Map.src='images/vmap2009medium.jpg';Map.width='850';Map.height='850';return true">Medium</a><br>
 		  <b>·</b><a onclick="Map.src='images/map_xaosworldhuge10102003.png';Map.width='4080';Map.height='5456';return true">Huge</a><br>
 		  <b>·</b><a onclick="Map.src='images/map_world.gif';Map.width='487';Map.height='352';return true">Known Lands</a><br>
 	 </td>
@@ -51,7 +51,7 @@
   </tr>
 <table width=696 height="293" border="0" cellpadding="2" cellspacing="1" style="border:solid 1px black; background-color:#FFFFFF; margin-top:3px;">
   <tr>
-  <td align="center" valign="top"><img border="0" src="images/map_xaosworldsmall.jpg" name="Map" width="480" height="682">
+  <td align="center" valign="top"><img border="0" src="images/vmap2009small.jpg" name="Map" width="500" height="500">
   <td>  
   </tr>
 </tr>

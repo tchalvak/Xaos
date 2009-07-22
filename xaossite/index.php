@@ -31,6 +31,7 @@
 	<td align = "center"><a href="index.php?page=maps" class = "hoverMenu">             Maps</a></td>
 	<td align = "center"><a href="index.php?page=gallery" class = "hoverMenu">   Galleries</a></td>
 	<td align = "center"><a href="forum/" class = "hoverMenu">   Forums</a></td>
+	<td align = "center"><a href="http://xaos.pbworks.com" class = "hoverMenu">   Wiki</a></td>
 	<td align = "center"><a href="webmail/" class = "hoverMenu">   Webmail</a></td>
 	<td align = "center"><a href="index.php?page=contact"  class = "hoverMenu">              Contact</a></td>
 </tr></table>
@@ -61,7 +62,6 @@
 <table border="0" cellpadding="2" cellspacing="1" width=700 style="border:solid 1px black; background-color:#F1F1F1; margin-top:3px;">
 <tr><td align = center>
 <font style = "font-size:7pt;">
-This page and its contents &copy;2006 XaosMUD unless otherwise specified.
 Questions? Comments? <a href="index.php?page=contact">Contact us</a> or ask on the <a href="/forum/viewforum.php?f=9">forum</a>.
 </td></tr>
 </table>

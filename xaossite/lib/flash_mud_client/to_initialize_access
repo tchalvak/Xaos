@@ -1,0 +1,1 @@
+nohup ./flashpolicyd.py --file=/path/to/flashpolicy.xml --port=843 &

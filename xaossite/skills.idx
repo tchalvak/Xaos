@@ -1,0 +1,11 @@
+<tr colspan=6><td colspan=6>
+<div class = "para2" align = "center">  <p>Main</p>  </div>
+<div class = "para1" align = "center">  <p></p>Skills</div></tr></td>
+</td></tr>
+
+<?php 
+require_once(substr(__FILE__,0,(strpos(__FILE__, 'xaossite/')))."xaossite/lib/base.inc.php");
+$db = new DBAccess();
+
+
+?>

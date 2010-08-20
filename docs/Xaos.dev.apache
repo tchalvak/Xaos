@@ -1,0 +1,6 @@
+<VirtualHost *:80>
+        ServerName xaos.local
+        DocumentRoot /home/tchalvak/sites/Xaos/xaossite/
+        RewriteRule ^([^/]+)/favicon.ico $1/favicon.ico [T=image/x-icon]
+        php_value session.cookie_domain "xaos.local"
+</VirtualHost>

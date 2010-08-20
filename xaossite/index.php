@@ -24,15 +24,15 @@
     <td align = "center"><a href="index.php?page=rules" class = "hoverMenu">       Rules</a></td>
 	<td align = "center"><a href="index.php?page=connect" class = "hoverMenu">     Connect</a></td>
 	<td align = "center"><a href="index.php?page=races" class = "hoverMenu">       Races</a></td>
-    <td align = "center"><a href="index.php?page=skills" class = "hoverMenu">     Skills</a></td>
+    <!-- <td align = "center"><a href="index.php?page=skills" class = "hoverMenu">     Skills</a></td> -->
 	<!-- <td align = "center"><a href="index.php?page=classes" class = "hoverMenu">     Classes</a></td> -->
 	<td align = "center"><a href="index.php?page=religions" class = "hoverMenu">     Religions</a></td>
 	<td align = "center"><a href="index.php?page=clans" class = "hoverMenu">             Clans</a></td>
 	<td align = "center"><a href="index.php?page=maps" class = "hoverMenu">             Maps</a></td>
-	<td align = "center"><a href="index.php?page=gallery" class = "hoverMenu">   Galleries</a></td>
+	<!-- <td align = "center"><a href="index.php?page=gallery" class = "hoverMenu">   Galleries</a></td> -->
 	<td align = "center"><a href="forum/" class = "hoverMenu">   Forums</a></td>
 	<td align = "center"><a href="http://xaos.pbworks.com" class = "hoverMenu">   Wiki</a></td>
-	<td align = "center"><a href="webmail/" class = "hoverMenu">   Webmail</a></td>
+	<!-- <td align = "center"><a href="webmail/" class = "hoverMenu">   Webmail</a></td>-->
 	<td align = "center"><a href="index.php?page=contact"  class = "hoverMenu">              Contact</a></td>
 </tr></table>
 </td></tr>

@@ -1,4 +1,4 @@
-<VirtualHost *:80>
+<VirtualHost *>
         ServerName xaos.local
         DocumentRoot /home/tchalvak/sites/Xaos/xaossite/
         RewriteRule ^([^/]+)/favicon.ico $1/favicon.ico [T=image/x-icon]
